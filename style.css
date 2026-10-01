@@ -35,7 +35,7 @@ a {
 }
 
 .bg-1 {
-    background-color: #ffffff; /* White */
+    background-image: liner gradient(red,yellow) 
     color: #555555;
 }
 
