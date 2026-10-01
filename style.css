@@ -1,65 +1,67 @@
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 a {
-    color: #2e72a1;
+  color: #2e72a1;
 }
 
-#logo, .project-img {
-    max-height: 400px;
+#logo,
+.project-img {
+  max-height: 400px;
 }
 
-#fork img{
-    height: 25px;
-    margin-bottom: 25px;
-    filter: invert(1);
+#fork img {
+  height: 25px;
+  margin-bottom: 25px;
+  filter: invert(1);
 }
 
 #sep {
-    height: 75px;
+  height: 75px;
 }
 
 .margin {
-    margin-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .bg-1 {
-   background-color: #000000;
-  color:
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
-    color: #ffffff;
+  background-color: #2e72a1;
+  color: #ffffff;
 }
 
 .card {
-    color: black;
-    text-align: left;
+  color: black;
+  text-align: left;
 }
 
 .card-title {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .bg-3 {
-    background-color: #000000; /* Black */
-    color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
 }
+
 .bg-4 {
-   background: #000000;
-background:  background: linear-gradient(
+  background: linear-gradient(
     76deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(214, 49, 82, 1) 21%,
@@ -69,21 +71,19 @@ background:  background: linear-gradient(
     rgba(156, 0, 49, 1) 54%,
     rgba(0, 0, 0, 1) 97%
   );
+}
+
 .container-fluid {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-}
-
-.navbar-nav li a:hover {
-    color: #2e72a1 !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
 }
